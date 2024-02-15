@@ -20,6 +20,18 @@ public class S56_mergeIntervals {
         };
 
 
+        int[] test = new int[128];
+
+        test['C'] = 232;
+
+//        System.out.println(test[24]);
+
+        for (int i = 0; i < test.length; i++) {
+            if(test[i] == 232)
+                System.out.println(i);
+        }
+
+
 
     }
 
